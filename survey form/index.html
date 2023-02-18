@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+    <head>
+      <body>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+      <label for="email" id="email-label">Email:</label>
+  <input type="email" id="email" placeholder="Enter your email" required>
+
+  <label for="number" id="number-label">Number:</label>
+  <input type="number" id="number" placeholder="Enter a number" min="0" max="100" required>
+
+  <label for="dropdown">Select an option:</label>
+  <select id="dropdown">
+    <option value="option1">Option 1</option>
+    <option value="option2">Option 2</option>
+  </select>
+
+  <label>Choose an option:</label>
+  <label for="radio1">
+    <input type="radio" id="radio1" name="option" value="option1" checked> Option 1
+  </label>
+  <label for="radio2">
+    <input type="radio" id="radio2" name="option" value="option2"> Option 2
+  </label>
+
+  <label>Choose all that apply:</label>
+  <label for="checkbox1">
+    <input type="checkbox" id="checkbox1" name="checkbox" value="option1"> Option 1
+  </label>
+  <label for="checkbox2">
+    <input type="checkbox" id="checkbox2" name="checkbox" value="option2"> Option 2
+  </label>
+
+  <label for="comments">Additional comments:</label>
+  <textarea id="comments" placeholder="Enter your comments"></textarea>
+
+  <button type="submit" id="submit">Submit</button>
+    </form>
+    </body>
+  </html>

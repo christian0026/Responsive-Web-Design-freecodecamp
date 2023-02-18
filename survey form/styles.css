@@ -1,0 +1,85 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Page title styles */
+  h1#title {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Form styles */
+  form#survey-form {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px #ccc;
+  }
+  
+  /* Label styles */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Input styles */
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 0px #ccc;
+  }
+  
+  /* Button styles */
+  button#submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button#submit:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Validation error styles */
+  input:invalid {
+    border: 1px solid red;
+  }
+  
+  input:invalid:focus {
+    box-shadow: 0px 0px 5px 0px red;
+  }
+  
+  /* Radio button and checkbox styles */
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Textarea styles */
+  textarea {
+    height: 100px;
+  }
+  
+  /* Description styles */
+  p#description {
+    text-align: center;
+    margin-bottom: 20px;
+  }
